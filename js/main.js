@@ -31,7 +31,7 @@ function validateName(name) {
  */
 function testFullname() {
   if (!validateName(fullname.value)) {
-    fullname.style.color = "red";
+    fullname.style.color = "blue";
     fullname.classList.add("is-invalid");
   } else {
     fullname.style.color = "inherit";
